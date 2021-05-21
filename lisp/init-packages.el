@@ -1,8 +1,8 @@
 (when (>= emacs-major-version 24)
      (require 'package)
      (package-initialize)
-     (setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
-		      ("melpa" . "http://elpa.emacs-china.org/melpa/"))))
+     (setq package-archives '(("gnu" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+		      ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/"))))
 
 ;; 注意 elpa.emacs-china.org 是 Emacs China 中文社区在国内搭建的一个 ELPA 镜像
 
@@ -17,6 +17,7 @@
 		hungry-delete
 		swiper
 		counsel
+		sis
 		;;smex
 		smartparens
 		;; --- Major Mode ---
@@ -26,7 +27,17 @@
 		exec-path-from-shell
 		;; --- Themes ---
 		monokai-theme
+		gruvbox-theme
 		popwin
+		org-roam
+		org-download
+		valign
+		elfeed
+		elfeed-org
+		elfeed-dashboard
+		use-package
+		which-key
+		meow
 		;; solarized-theme
 		) "Default packages")
 
@@ -53,8 +64,15 @@
 
 (load-theme 'monokai t)
 
+;;(load-theme 'gruvbox-dark-soft t)
 (require 'hungry-delete)
 (global-hungry-delete-mode)
+
+;;(require 'recentf-mode)
+(recentf-mode 1)
+(setq recentf-max-menu-items 10)
+(global-set-key (kbd "C-c r") 'recentf-open-files)
+
 
 (require 'smartparens-config)
 (add-hook 'emacs-lisp-mode-hook 'smartparens-mode)
@@ -62,8 +80,17 @@
 (require 'popwin)
 (popwin-mode t)
 
-(ivy-mode)
-(setq ivy-use-virtual-buffers t)
-(setq enable-recursive-minibuffers t)
+(require 'which-key)
+(which-key-mode)
+
+(require 'sis)
+(sis-global-cursor-color-mode t)
+(sis-global-respect-mode t)
+(sis-global-context-mode t)
+(sis-global-inline-mode t)
+(sis-ism-lazyman-config
+ "com.apple.keylayout.ABC"
+ "com.apple.inputmethod.SCIM.ITABC")
+
 
 (provide 'init-packages)
