@@ -9,8 +9,8 @@
 ("org-refile-last-stored"
  (filename . "~/Documents/notes/agenda/task.org")
  (front-context-string . "** TODO 配置meow按键")
- (rear-context-string . " TODO 北邮网院期末考试\n\n")
- (position . 620))
+ (rear-context-string . "20 Thu 16:00>\n\n\n")
+ (position . 552))
 ("org-capture-last-stored"
  (filename . "~/.notes")
  (front-context-string . "** TODO 完成meow设置")

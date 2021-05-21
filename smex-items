@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- elfeed-update
- elfeed
- mu4e
  load-theme
- eshell
+ mu4e-quit
+ org-roam-capture
  global-visual-line-mode
- global-hl-line-mode
+ org-agenda-goto
+ mu4e-update-index
+ mu4e
 )
 
 ;; ----- smex-data -----
@@ -24,17 +24,17 @@
  (counsel-buffer-or-recentf . 2)
  (org-agenda-file-to-front . 1)
  (org-agenda-kill . 1)
- (elfeed . 65)
+ (elfeed . 68)
  (elfeed-org . 1)
  (elfeed-show-mode . 2)
- (elfeed-update . 22)
+ (elfeed-update . 23)
  (elfeed-update-feed . 14)
  (elfeed-add-feed . 4)
  (elfeed-search-fetch . 1)
  (elfeed-search-yank . 1)
  (elfeed-search-set-filter . 1)
  (elfeed-show-next-link . 1)
- (mu4e . 25)
+ (mu4e . 26)
  (compose-mail . 3)
  (message-send-and-exit . 1)
  (mu4e-headers-mode . 4)
@@ -46,7 +46,7 @@
  (org-download-yank . 2)
  (org-download-screenshot . 12)
  (org-toggle-inline-images . 12)
- (global-visual-line-mode . 8)
+ (global-visual-line-mode . 10)
  (recentf-open-files . 6)
  (org-agenda-schedule . 2)
  (list-colors-display . 1)
@@ -59,5 +59,9 @@
  (hl-line-mode . 2)
  (global-hl-line-mode . 2)
  (meow-cheatsheet . 2)
- (load-theme . 3)
+ (load-theme . 6)
+ (mu4e-update-index . 1)
+ (org-agenda-goto . 1)
+ (org-roam-capture . 1)
+ (mu4e-quit . 1)
 )
