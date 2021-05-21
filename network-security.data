@@ -1,3 +1,0 @@
-(
- (:id "sha1:981cbd21d97bf19e53d1801ec1324b337d23f787" :fingerprints ("sha1:c0:92:55:3e:7b:60:83:49:9e:f7:e3:ff:7b:6e:88:79:74:09:8b:cc") :host "smtp.jhsec.com:25" :conditions (:self-signed :no-host-match :unknown-ca :invalid :verify-cert))
-)
