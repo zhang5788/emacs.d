@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ electric-indent-mode
+ elfeed-update
+ elfeed
+ dired
  load-theme
- mu4e-quit
- org-roam-capture
- global-visual-line-mode
- org-agenda-goto
- mu4e-update-index
- mu4e
+ package-autoremove
+ counsel-find-file
 )
 
 ;; ----- smex-data -----
@@ -17,17 +17,17 @@
  (org-roam . 1)
  (org-todo . 1)
  (org-schedule . 3)
- (electric-indent-mode . 8)
+ (electric-indent-mode . 10)
  (counsel-ag . 5)
  (recentf-mode . 2)
  (counsel-recentf . 1)
  (counsel-buffer-or-recentf . 2)
  (org-agenda-file-to-front . 1)
  (org-agenda-kill . 1)
- (elfeed . 68)
+ (elfeed . 69)
  (elfeed-org . 1)
  (elfeed-show-mode . 2)
- (elfeed-update . 23)
+ (elfeed-update . 24)
  (elfeed-update-feed . 14)
  (elfeed-add-feed . 4)
  (elfeed-search-fetch . 1)
@@ -53,15 +53,18 @@
  (eshell . 2)
  (org-download-image . 1)
  (sis-get . 2)
- (package-autoremove . 1)
+ (package-autoremove . 3)
  (mu4e-news . 1)
  (mu4e-org-mode . 1)
  (hl-line-mode . 2)
  (global-hl-line-mode . 2)
  (meow-cheatsheet . 2)
- (load-theme . 6)
+ (load-theme . 7)
  (mu4e-update-index . 1)
  (org-agenda-goto . 1)
  (org-roam-capture . 1)
  (mu4e-quit . 1)
+ (swiper . 1)
+ (counsel-find-file . 1)
+ (dired . 2)
 )
