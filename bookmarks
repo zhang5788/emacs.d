@@ -12,8 +12,8 @@
  (rear-context-string . "20 Thu 16:00>\n\n\n")
  (position . 552))
 ("org-capture-last-stored"
- (filename . "~/.notes")
- (front-context-string . "** TODO 完成meow设置")
- (rear-context-string)
- (position . 9))
+ (filename . "~/Documents/notes/agenda/index.org")
+ (front-context-string . "*** TODO 明日方舟\n  ")
+ (rear-context-string . "Reading\n** Book\n")
+ (position . 19))
 )
