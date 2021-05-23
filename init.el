@@ -28,6 +28,7 @@
 (require 'init-elfeed)
 (require 'init-org)
 (require 'init-mu4e)
+(require 'init-agenda)
 
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 

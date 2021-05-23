@@ -8,12 +8,12 @@
  (handler . elfeed-search-bookmark-handler))
 ("org-refile-last-stored"
  (filename . "~/Documents/notes/agenda/task.org")
- (front-context-string . "** TODO 配置meow按键")
- (rear-context-string . "20 Thu 16:00>\n\n\n")
- (position . 552))
+ (front-context-string . "** DONE 配置meow按键")
+ (rear-context-string . "-20 Thu 16:00>\n\n")
+ (position . 1496))
 ("org-capture-last-stored"
  (filename . "~/Documents/notes/agenda/index.org")
- (front-context-string . "*** TODO 明日方舟\n  ")
- (rear-context-string . "Reading\n** Book\n")
- (position . 19))
+ (front-context-string . "*** TODO 我明白了\n  ")
+ (rear-context-string . "k\n*** TODO 明日方舟\n")
+ (position . 33))
 )
