@@ -1,7 +1,11 @@
 (setq org-capture-templates nil)
 (add-to-list 'org-capture-templates
-	       '("r" "Book Reading Task" entry
-		 (file+olp "~/Documents/notes/agenda/index.org" "Reading" "Book")
-		 "* TODO %^{书名}\n%u\n%a\n" :clock-in t :clock-resume t))
+	       '("w" "Work Task" entry
+		 (file+olp "~/Documents/notes/agenda/task.org" "Work")
+		 "* TODO %^{任务}\n%t\n%^g" :clock-in t :clock-resume t))
 
+(setq org-agenda-custom-commands
+        '(("w" "List work todo"
+           ((tags "+work")))
+          ))
 (provide 'init-agenda)

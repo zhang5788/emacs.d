@@ -29,7 +29,8 @@
 (require 'init-org)
 (require 'init-mu4e)
 (require 'init-agenda)
-
+(require 'init-tabs)
+(require 'init-clojure)
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 
 (load-file custom-file)
