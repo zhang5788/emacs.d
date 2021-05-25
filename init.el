@@ -9,6 +9,7 @@
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 
 (setq package-check-signature nil)
+
 (require 'package)
 (unless (bound-and-true-p package--initialized)
   (package-initialize))
@@ -20,7 +21,6 @@
   (package-refresh-contents)
 (package-install 'user-package))
 
-
 (require 'init-ui)
 (require 'init-company)
 (require 'init-ivy)
@@ -29,8 +29,9 @@
 (require 'init-org)
 (require 'init-mu4e)
 (require 'init-agenda)
+;;(require 'init-project)
 (require 'init-tabs)
-(require 'init-clojure)
+;;(require 'init-clojure)
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 
 (load-file custom-file)
