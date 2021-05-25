@@ -32,6 +32,7 @@
 ;;(require 'init-project)
 (require 'init-tabs)
 ;;(require 'init-clojure)
+(require 'init-rust)
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 
 (load-file custom-file)

@@ -19,7 +19,7 @@
 
 (use-package org-download
   :ensure t
-  :init (setq org-download-screenshot-method "screencapture -i %s")
+  :config (setq org-download-screenshot-method "screencapture -i %s")
   (add-hook 'dired-mode-hook 'org-download-enable))
 
 (use-package org-roam

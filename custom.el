@@ -9,7 +9,7 @@
  '(nil nil t)
  '(org-agenda-files '("~/Documents/notes/agenda/task.org"))
  '(package-selected-packages
-   '(projectile flycheck lsp-mode clojure-mode org-bullets org-mime meow try gruvbox-theme sis smartparens-config smartparents-config user-package-ensure-system-package company hungry-delete swiper counsel smartparens exec-path-from-shell monokai-theme popwin org-roam valign elfeed-org elfeed use-package))
+   '(lsp-ui rustic projectile flycheck lsp-mode clojure-mode org-bullets org-mime meow try gruvbox-theme sis smartparens-config smartparents-config user-package-ensure-system-package company hungry-delete swiper counsel smartparens exec-path-from-shell monokai-theme popwin org-roam valign elfeed-org elfeed use-package))
  '(send-mail-function 'smtpmail-send-it)
  '(smtpmail-smtp-server "smtp.jhsec.com")
  '(smtpmail-smtp-service 25))
