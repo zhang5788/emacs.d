@@ -42,4 +42,17 @@
 (defun rk/rustic-mode-hook ()
   (setq-local buffer-save-without-query t))
 
+(defun my-cargo-run ()
+  "Build and run Rust code."
+  (interactive)
+  (rustic-cargo-run)
+  (let (
+      (orig-win (selected-window))
+      (run-win (display-buffer (get-buffer "*rustic-compilation*") nil 'visible))
+    )
+    (select-window run-win)
+    (comint-mode)
+    (read-only-mode 0)
+  )
+)
 (provide 'init-rust)

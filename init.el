@@ -1,4 +1,4 @@
-;; 设置melpa源为清华的源
+;;; 设置melpa源为清华的源
 (when (>= emacs-major-version 24)
      (require 'package)
      (package-initialize)
@@ -33,6 +33,7 @@
 (require 'init-tabs)
 ;;(require 'init-clojure)
 (require 'init-rust)
+(require 'init-modeline)
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 
 (load-file custom-file)
