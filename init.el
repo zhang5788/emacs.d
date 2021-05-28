@@ -33,6 +33,8 @@
 (require 'init-tabs)
 ;;(require 'init-clojure)
 (require 'init-rust)
+;; 不好使
+;;(require 'init-sdcv)
 (require 'init-modeline)
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 

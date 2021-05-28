@@ -13,7 +13,7 @@
  (position . 2059))
 ("org-capture-last-stored"
  (filename . "~/Documents/notes/agenda/task.org")
- (front-context-string . "** TODO 票交所任务支持\n")
- (rear-context-string . "tty 学习\n\n :work:\n")
- (position . 457))
+ (front-context-string . "** TODO 添加pytohn")
+ (rear-context-string . "tml][org-mode]]\n")
+ (position . 283))
 )
