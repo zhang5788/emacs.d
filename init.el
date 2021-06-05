@@ -19,7 +19,7 @@
 
 (unless (package-installed-p 'use-package)
   (package-refresh-contents)
-(package-install 'user-package))
+(package-install 'use-package))
 
 (require 'init-ui)
 (require 'init-company)
