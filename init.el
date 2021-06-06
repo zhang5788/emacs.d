@@ -29,13 +29,14 @@
 (require 'init-org)
 (require 'init-mu4e)
 (require 'init-agenda)
-;;(require 'init-project)
+(require 'init-project)
 (require 'init-tabs)
-;;(require 'init-clojure)
+(require 'init-clojure)
 (require 'init-rust)
+
 ;; 不好使
 ;;(require 'init-sdcv)
-(require 'init-modeline)
+;;(require 'init-modeline)
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 
 (load-file custom-file)
