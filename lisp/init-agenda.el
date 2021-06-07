@@ -14,6 +14,11 @@
 		 (file+olp "~/Documents/notes/agenda/task.org" "Emacs")
 		 "* TODO %^{任务}\n%t\n%^g"))
 
+(add-to-list 'org-capture-templates
+	       '("r" "Elfeed Capture" entry
+		 (file+olp "~/Documents/notes/agenda/task.org" "InBox")
+		 "* TODO %^{任务}\n%t\n%f"))
+
 (setq org-agenda-custom-commands
         '(("w" "List work todo"
            ((tags "+work")))

@@ -13,6 +13,9 @@
 (use-package flycheck
   :ensure t)
 
+(use-package lsp-ui
+  :ensure t)
+
 (add-hook 'clojure-mode-hook 'lsp)
 (add-hook 'clojurescript-mode-hook 'lsp)
 (add-hook 'clojurec-mode-hook 'lsp)
