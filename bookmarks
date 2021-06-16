@@ -12,8 +12,8 @@
  (rear-context-string . "*** DONE 配置标签嵌套\n")
  (position . 2059))
 ("org-capture-last-stored"
- (filename . "~/Documents/notes/agenda/task.org")
- (front-context-string . "** TODO aklsdjf\n")
+ (filename . "~/Documents/notes/org/20210616135123-java并发.org")
+ (front-context-string . "#+title: java并发编")
  (rear-context-string)
- (position . 9))
+ (position . 1))
 )

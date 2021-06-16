@@ -15,8 +15,8 @@
 		 "* TODO %^{任务}\n%t\n%^g"))
 
 (add-to-list 'org-capture-templates
-	       '("r" "Elfeed Capture" entry
-		 (file+olp "~/Documents/notes/agenda/task.org" "InBox")
+	       '("b" "Life Capture" entry
+		 (file+olp "~/Documents/notes/agenda/task.org" "Life")
 		 "* TODO %^{任务}\n%t\n%f"))
 
 (setq org-agenda-custom-commands

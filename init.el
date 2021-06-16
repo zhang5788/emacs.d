@@ -34,7 +34,7 @@
 (require 'init-clojure)
 (require 'init-rust)
 (require 'init-better)
-(require 'init-evil)
+;;(require 'init-evil)
 ;;(require 'init-meow)
 ;; 不好使
 ;;(require 'init-sdcv)
