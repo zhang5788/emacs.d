@@ -1,5 +1,6 @@
 
 (use-package mu4e
+  :defer t
   :load-path "/opt/homebrew/Cellar/mu/1.4.15/share/emacs/site-lisp/mu/mu4e"
   :init
   (setq mail-user-agent 'mu4e-user-agent)
@@ -15,6 +16,7 @@
   (setq user-mail-address "zhangt@jhsec.com"))
 
 (use-package org-mime
+  :defer t
   :ensure t
   :config
   (setq org-mime-library 'mml))

@@ -1,4 +1,5 @@
 (use-package lsp-mode
+  :defer t
   :ensure t
   :commands lsp
   :custom
@@ -12,6 +13,7 @@
 
 
 (use-package lsp-ui
+  :defer t
   :ensure t
   :commands lsp-ui-mode
   :custom
@@ -20,9 +22,11 @@
   (lsp-ui-doc-enable nil))
 
 (use-package flycheck
+  :defer t
   :ensure t)
 
 (use-package rustic
+  :defer t
   :ensure t
   :bind (:map rustic-mode-map
 	      ("M-j" . lsp-ui-imenu)

@@ -1,19 +1,25 @@
 (use-package clojure-mode
+  :defer t
   :ensure t)
 
 (use-package lsp-mode
+  :defer t
   :ensure t)
 
 (use-package cider
+  :defer t
   :ensure t)
 
 (use-package lsp-treemacs
+  :defer t
   :ensure t)
 
 (use-package flycheck
+  :defer t
   :ensure t)
 
 (use-package lsp-ui
+  :defer t
   :ensure t)
 
 (add-hook 'clojure-mode-hook 'lsp)

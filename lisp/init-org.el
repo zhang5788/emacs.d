@@ -1,4 +1,5 @@
 (use-package org
+  :defer t
   :ensure nil
   :bind (("C-c a" . org-agenda)
 	 ("C-c l" . org-store-link)
@@ -8,21 +9,25 @@
 	    (require 'org-tempo)))
 
 (use-package org-bullets
+  :defer t
   :ensure t
   :init
   (add-hook 'org-mode-hook #'org-bullets-mode)
   (setq inhibit-compacting-font-caches t))
 
 (use-package valign
+  :defer t
   :ensure t
   :hook (valign-mode . org-mode-hook))
 
 (use-package org-download
+  :defer t
   :ensure t
   :config (setq org-download-screenshot-method "screencapture -i %s")
   (add-hook 'dired-mode-hook 'org-download-enable))
 
 (use-package org-roam
+  :defer t
   :ensure t
   :hook
   (org-mode-hook . org-roam-mode)

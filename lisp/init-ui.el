@@ -26,22 +26,26 @@
 
 (use-package hungry-delete
   :ensure t
+  :defer t
   :config
   (global-hungry-delete-mode))
 
 (use-package popwin
   :ensure t
+  :defer t
   :config
   (popwin-mode t))
 
 (use-package smartparens
   :ensure t
+  :defer t
   :init
   (require 'smartparens-config)
   (add-hook 'emacs-lisp-mode-hook #'smartparens-mode))
 
 (use-package recentf
   :ensure nil
+  :defer t
   :config
   (progn
     (setq recentf-max-saved-items 200
@@ -59,6 +63,7 @@
   (load-theme 'gruvbox-dark-hard t))
 
 (use-package linum
+  :defer t
   :init
   (progn
     (global-linum-mode t)

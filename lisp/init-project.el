@@ -1,6 +1,7 @@
 ;; 初始化projectile插件。
 
 (use-package projectile
+  :defer t
   :ensure t
   :hook
   (after-init . projectile-mode)

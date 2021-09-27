@@ -5,7 +5,6 @@
      (setq package-archives '(("gnu" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
 		      ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/"))))
 
-
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 
 (setq package-check-signature nil)
@@ -30,14 +29,12 @@
 (require 'init-mu4e)
 (require 'init-agenda)
 (require 'init-project)
-(require 'init-tabs)
-(require 'init-clojure)
-(require 'init-rust)
-(require 'init-better)
-;;(require 'init-evil)
-;;(require 'init-meow)
-;; 不好使
-;;(require 'init-sdcv)
+(require 'init-lsp)
+;;(require 'init-clojure)
+;;(require 'init-rust)
+
+(require 'init-evil)
+
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 
 (load-file custom-file)

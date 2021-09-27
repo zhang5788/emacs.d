@@ -1,1 +1,1 @@
-("~/" "~/.emacs.d/" "~/Desktop/projects/guessing_game/")
+("~/" "~/.emacs.d/" "~/.emacs.d/extensions/term-cursor.el/")
