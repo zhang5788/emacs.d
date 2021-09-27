@@ -1,0 +1,3 @@
+[submodule "extensions/term-cursor.el"]
+	path = extensions/term-cursor.el
+	url = https://github.com/h0d/term-cursor.el.git
