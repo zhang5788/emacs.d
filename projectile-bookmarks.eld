@@ -1,1 +1,0 @@
-("~/" "~/.emacs.d/" "~/.emacs.d/extensions/term-cursor.el/")
