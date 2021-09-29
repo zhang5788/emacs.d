@@ -83,5 +83,10 @@
      "com.apple.keylayout.ABC"
      "com.apple.inputmethod.SCIM.ITABC")))
 
+(set-face-attribute 'default nil
+		    :family "Monaco"
+		    :weight 'normal
+		    :width 'normal)
+
 
 (provide 'init-ui)

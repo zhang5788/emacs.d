@@ -1,5 +1,4 @@
 (use-package exec-path-from-shell
-  :defer t
   :ensure t
   :config
   (exec-path-from-shell-initialize))

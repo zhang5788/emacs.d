@@ -12,7 +12,7 @@
 	projectile-auto-discover t)
   :bind
   (:map projectile-mode-map
-	("C-c p" . projectile-command-map))
+	("C-x p" . projectile-command-map))
   :config
   (remove-hook 'find-file-hook #'projectile-find-file-hook-function))
 
